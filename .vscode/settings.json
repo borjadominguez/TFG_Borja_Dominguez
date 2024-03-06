@@ -1,0 +1,11 @@
+{
+    "idf.adapterTargetName": "esp32",
+    "terminal.integrated.env.osx": {
+        "IDF_PATH": "/Users/borja.dominguez.martin/esp/esp-idf"
+    },
+    "C_Cpp.intelliSenseEngineFallback": "disabled",
+    "files.associations": {
+        "freertos.h": "c",
+        "sdkconfig.h": "c"
+    },
+}

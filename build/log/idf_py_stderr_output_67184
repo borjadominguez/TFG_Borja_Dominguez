@@ -1,0 +1,125 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/cu.usbserial-110 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d5d4d: wifi_init at /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/main/main.c:102 (discriminator 1)
+[0m
+[0;33m0x40088997: _esp_error_check_failed at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008179a: panic_abort at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/panic.c:472
+0x400889a1: esp_system_abort at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4009015d: abort at /Users/borja.dominguez.martin/esp/esp-idf/components/newlib/abort.c:38
+0x40088997: _esp_error_check_failed at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400d5d4d: wifi_init at /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/main/main.c:102 (discriminator 1)
+0x400d5e0f: app_main at /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/main/main.c:157
+0x4014d563: main_task at /Users/borja.dominguez.martin/esp/esp-idf/components/freertos/app_startup.c:208
+0x400894ad: vPortTaskWrapper at /Users/borja.dominguez.martin/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d5d4d: wifi_init at /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/main/main.c:102 (discriminator 1)
+[0m
+[0;33m0x40088997: _esp_error_check_failed at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008179a: panic_abort at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/panic.c:472
+0x400889a1: esp_system_abort at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4009015d: abort at /Users/borja.dominguez.martin/esp/esp-idf/components/newlib/abort.c:38
+0x40088997: _esp_error_check_failed at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400d5d4d: wifi_init at /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/main/main.c:102 (discriminator 1)
+0x400d5e0f: app_main at /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/main/main.c:157
+0x4014d563: main_task at /Users/borja.dominguez.martin/esp/esp-idf/components/freertos/app_startup.c:208
+0x400894ad: vPortTaskWrapper at /Users/borja.dominguez.martin/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d5d4d: wifi_init at /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/main/main.c:102 (discriminator 1)
+[0m
+[0;33m0x40088997: _esp_error_check_failed at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008179a: panic_abort at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/panic.c:472
+0x400889a1: esp_system_abort at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4009015d: abort at /Users/borja.dominguez.martin/esp/esp-idf/components/newlib/abort.c:38
+0x40088997: _esp_error_check_failed at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400d5d4d: wifi_init at /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/main/main.c:102 (discriminator 1)
+0x400d5e0f: app_main at /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/main/main.c:157
+0x4014d563: main_task at /Users/borja.dominguez.martin/esp/esp-idf/components/freertos/app_startup.c:208
+0x400894ad: vPortTaskWrapper at /Users/borja.dominguez.martin/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d5d4d: wifi_init at /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/main/main.c:102 (discriminator 1)
+[0m
+[0;33m0x40088997: _esp_error_check_failed at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008179a: panic_abort at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/panic.c:472
+0x400889a1: esp_system_abort at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4009015d: abort at /Users/borja.dominguez.martin/esp/esp-idf/components/newlib/abort.c:38
+0x40088997: _esp_error_check_failed at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400d5d4d: wifi_init at /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/main/main.c:102 (discriminator 1)
+0x400d5e0f: app_main at /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/main/main.c:157
+0x4014d563: main_task at /Users/borja.dominguez.martin/esp/esp-idf/components/freertos/app_startup.c:208
+0x400894ad: vPortTaskWrapper at /Users/borja.dominguez.martin/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d5d4d: wifi_init at /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/main/main.c:102 (discriminator 1)
+[0m
+[0;33m0x40088997: _esp_error_check_failed at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008179a: panic_abort at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/panic.c:472
+0x400889a1: esp_system_abort at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4009015d: abort at /Users/borja.dominguez.martin/esp/esp-idf/components/newlib/abort.c:38
+0x40088997: _esp_error_check_failed at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400d5d4d: wifi_init at /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/main/main.c:102 (discriminator 1)
+0x400d5e0f: app_main at /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/main/main.c:157
+0x4014d563: main_task at /Users/borja.dominguez.martin/esp/esp-idf/components/freertos/app_startup.c:208
+0x400894ad: vPortTaskWrapper at /Users/borja.dominguez.martin/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d5d4d: wifi_init at /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/main/main.c:102 (discriminator 1)
+[0m
+[0;33m0x40088997: _esp_error_check_failed at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008179a: panic_abort at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/panic.c:472
+0x400889a1: esp_system_abort at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4009015d: abort at /Users/borja.dominguez.martin/esp/esp-idf/components/newlib/abort.c:38
+0x40088997: _esp_error_check_failed at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400d5d4d: wifi_init at /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/main/main.c:102 (discriminator 1)
+0x400d5e0f: app_main at /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/main/main.c:157
+0x4014d563: main_task at /Users/borja.dominguez.martin/esp/esp-idf/components/freertos/app_startup.c:208
+0x400894ad: vPortTaskWrapper at /Users/borja.dominguez.martin/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d5d4d: wifi_init at /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/main/main.c:102 (discriminator 1)
+[0m
+[0;33m0x40088997: _esp_error_check_failed at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008179a: panic_abort at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/panic.c:472
+0x400889a1: esp_system_abort at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4009015d: abort at /Users/borja.dominguez.martin/esp/esp-idf/components/newlib/abort.c:38
+0x40088997: _esp_error_check_failed at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400d5d4d: wifi_init at /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/main/main.c:102 (discriminator 1)
+0x400d5e0f: app_main at /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/main/main.c:157
+0x4014d563: main_task at /Users/borja.dominguez.martin/esp/esp-idf/components/freertos/app_startup.c:208
+0x400894ad: vPortTaskWrapper at /Users/borja.dominguez.martin/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d5d4d: wifi_init at /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/main/main.c:102 (discriminator 1)
+[0m
+[0;33m0x40088997: _esp_error_check_failed at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m0x4008179a: panic_abort at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/panic.c:472
+0x400889a1: esp_system_abort at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4009015d: abort at /Users/borja.dominguez.martin/esp/esp-idf/components/newlib/abort.c:38
+0x40088997: _esp_error_check_failed at /Users/borja.dominguez.martin/esp/esp-idf/components/esp_system/esp_err.c:50
+0x400d5d4d: wifi_init at /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/main/main.c:102 (discriminator 1)
+0x400d5e0f: app_main at /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/main/main.c:157
+0x4014d563: main_task at /Users/borja.dominguez.martin/esp/esp-idf/components/freertos/app_startup.c:208
+0x400894ad: vPortTaskWrapper at /Users/borja.dominguez.martin/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0m

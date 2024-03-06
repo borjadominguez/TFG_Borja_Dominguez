@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${env:IDF_PATH}/components/**",
+                "${env:IDF_PATH}/components/esp_common/include",
+                "${env:IDF_PATH}/components/freertos/include",
+                "${env:IDF_PATH}/components/esp32/include",
+                "${env:IDF_PATH}/components/heap/include",
+                "${env:IDF_PATH}/components/freertos/FreeRTOS-Kernel/include/**",
+                "${env:IDF_PATH}/components/freertos/FreeRTOS-Kernel-SMP/include/**",
+                "${env:IDF_PATH}/components/freertos/config/include/**"
+            ],
+            "browse": {
+                "path": [
+                    "${env:IDF_PATH}/components/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "defines": [],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "macos-clang-arm64"
+        }
+    ],
+    "version": 4
+}
