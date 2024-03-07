@@ -15,12 +15,6 @@ static void wifi_event_handler(void* arg, esp_event_base_t event_base, int32_t e
 			break;
 		
 		case WIFI_EVENT_STA_DISCONNECTED: 
-		//  {
-        // 	ESP_LOGI("WIFI","disconnected trying to reconect in %d seconds", time_to_reconect);
-		// 	vTaskDelay(time_to_reconect * 1000 / portTICK_PERIOD_MS);
-        //     esp_restart();
-		// 	break;
-		// }
             if (reconnect_attempts < MAX_RECONNECT_ATTEMPTS) {
                 ESP_LOGI("WIFI", "Intento de reconexión %d de %d", reconnect_attempts + 1, MAX_RECONNECT_ATTEMPTS);
                 vTaskDelay(pdMS_TO_TICKS(time_to_reconect * 1000));
@@ -37,18 +31,17 @@ static void wifi_event_handler(void* arg, esp_event_base_t event_base, int32_t e
             ESP_LOGI("WIFI","Conectado, reiniciando contador de intentos,");
             break;
 
-		case IP_EVENT_STA_GOT_IP: {
+		case IP_EVENT_STA_GOT_IP: 
 			ip_event_got_ip_t* event = (ip_event_got_ip_t*) event_data;
 			ESP_LOGI("WIFI", "IP(" IPSTR ")", IP2STR(&event->ip_info.ip));
 			xSemaphoreGive(wifi_semaphore);
 			ESP_LOGI("WIFI", "wifi_semaphore unlocked");
 			break;
-		}
 
-		default: {
+		default: 
 			printf("event_id: %d\n", (int) event_id);
 			break;
-		}
+		
 	}
 }
 

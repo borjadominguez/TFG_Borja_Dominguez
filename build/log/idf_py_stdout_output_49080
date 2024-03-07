@@ -1,0 +1,72 @@
+[1/5] cd /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/build/esp-idf/esptool_py && /Users/borja.dominguez.martin/.espressif/python_env/idf5.2_py3.11_env/bin/python /Users/borja.dominguez.martin/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/build/partition_table/partition-table.bin /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/build/miprograma_esp32.bin
+miprograma_esp32.bin binary size 0xd3190 bytes. Smallest app partition is 0x100000 bytes. 0x2ce70 bytes (18%) free.
+[2/5] Performing build step for 'bootloader'
+[1/1] cd /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/build/bootloader/esp-idf/esptool_py && /Users/borja.dominguez.martin/.espressif/python_env/idf5.2_py3.11_env/bin/python /Users/borja.dominguez.martin/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/build/bootloader/bootloader.bin
+Bootloader binary size 0x6850 bytes. 0x7b0 bytes (7%) free.
+[3/5] No install step for 'bootloader'
+[4/5] Completed 'bootloader'
+[4/5] cd /Users/borja.dominguez.martin/esp/esp-idf/components/esptool_py && /opt/homebrew/Cellar/cmake/3.28.3/bin/cmake -D IDF_PATH=/Users/borja.dominguez.martin/esp/esp-idf -D "SERIAL_TOOL=/Users/borja.dominguez.martin/.espressif/python_env/idf5.2_py3.11_env/bin/python;;/Users/borja.dominguez.martin/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/build -P /Users/borja.dominguez.martin/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/cu.usbserial-110 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 miprograma_esp32.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port /dev/cu.usbserial-110
+Connecting....
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: a8:42:e3:ce:6f:10
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x000e3fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26704 bytes to 16348...
+Writing at 0x00001000... (100 %)
+Wrote 26704 bytes (16348 compressed) at 0x00001000 in 0.6 seconds (effective 360.3 kbit/s)...
+Hash of data verified.
+Compressed 864656 bytes to 536705...
+Writing at 0x00010000... (3 %)
+Writing at 0x0001dc4d... (6 %)
+Writing at 0x000261da... (9 %)
+Writing at 0x0002c3b9... (12 %)
+Writing at 0x00032b7b... (15 %)
+Writing at 0x0003ddda... (18 %)
+Writing at 0x000438e7... (21 %)
+Writing at 0x000493a9... (24 %)
+Writing at 0x00050747... (27 %)
+Writing at 0x00056a37... (30 %)
+Writing at 0x0005c736... (33 %)
+Writing at 0x0006266f... (36 %)
+Writing at 0x00067c17... (39 %)
+Writing at 0x0006cf1d... (42 %)
+Writing at 0x000723e1... (45 %)
+Writing at 0x00077665... (48 %)
+Writing at 0x0007ce1a... (51 %)
+Writing at 0x0008257f... (54 %)
+Writing at 0x00088389... (57 %)
+Writing at 0x0008dba2... (60 %)
+Writing at 0x00093713... (63 %)
+Writing at 0x00099377... (66 %)
+Writing at 0x0009ecc4... (69 %)
+Writing at 0x000a478a... (72 %)
+Writing at 0x000aa53d... (75 %)
+Writing at 0x000b0915... (78 %)
+Writing at 0x000b61f9... (81 %)
+Writing at 0x000bd893... (84 %)
+Writing at 0x000c78f2... (87 %)
+Writing at 0x000cd5fd... (90 %)
+Writing at 0x000d323c... (93 %)
+Writing at 0x000d95a2... (96 %)
+Writing at 0x000ded81... (100 %)
+Wrote 864656 bytes (536705 compressed) at 0x00010000 in 13.8 seconds (effective 501.8 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.0 seconds (effective 646.8 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

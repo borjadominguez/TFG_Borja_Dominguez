@@ -1,7 +1,7 @@
 {
     "version":            "1.1",
     "project_name":       "miprograma_esp32",
-    "project_version":    "1f375f4-dirty",
+    "project_version":    "2fec5c6-dirty",
     "project_path":       "/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez",
     "idf_path":           "/Users/borja.dominguez.martin/esp/esp-idf",
     "build_dir":          "/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/build",
