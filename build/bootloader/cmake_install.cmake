@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/build/bootloader/esp-idf/cmake_install.cmake")
+  include("/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/TFG_Borja_Dominguez/build/bootloader/esp-idf/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domínguez/4º/2do_Cuatrimestre/TFG/TFG_Borja_Dominguez/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

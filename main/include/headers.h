@@ -18,6 +18,7 @@
 #include "esp_flash.h"
 #include "nvs_flash.h"
 #include <sys/param.h>
+#include <HTTPClient.h>
 
 // Inclusión de bibliotecas de FreeRTOS
 #include "freertos/FreeRTOS.h"

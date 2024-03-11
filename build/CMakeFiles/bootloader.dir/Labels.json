@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domi\u0301nguez/4\u00ba/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/build/CMakeFiles/bootloader"
+			"file" : "/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domi\u0301nguez/4\u00ba/2do_Cuatrimestre/TFG/TFG_Borja_Dominguez/build/CMakeFiles/bootloader"
 		},
 		{
-			"file" : "/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domi\u0301nguez/4\u00ba/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/build/CMakeFiles/bootloader.rule"
+			"file" : "/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domi\u0301nguez/4\u00ba/2do_Cuatrimestre/TFG/TFG_Borja_Dominguez/build/CMakeFiles/bootloader.rule"
 		},
 		{
-			"file" : "/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domi\u0301nguez/4\u00ba/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/build/CMakeFiles/bootloader-complete.rule"
+			"file" : "/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domi\u0301nguez/4\u00ba/2do_Cuatrimestre/TFG/TFG_Borja_Dominguez/build/CMakeFiles/bootloader-complete.rule"
 		},
 		{
-			"file" : "/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domi\u0301nguez/4\u00ba/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+			"file" : "/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domi\u0301nguez/4\u00ba/2do_Cuatrimestre/TFG/TFG_Borja_Dominguez/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
 		},
 		{
-			"file" : "/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domi\u0301nguez/4\u00ba/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+			"file" : "/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domi\u0301nguez/4\u00ba/2do_Cuatrimestre/TFG/TFG_Borja_Dominguez/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
 		},
 		{
-			"file" : "/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domi\u0301nguez/4\u00ba/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+			"file" : "/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domi\u0301nguez/4\u00ba/2do_Cuatrimestre/TFG/TFG_Borja_Dominguez/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
 		},
 		{
-			"file" : "/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domi\u0301nguez/4\u00ba/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+			"file" : "/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domi\u0301nguez/4\u00ba/2do_Cuatrimestre/TFG/TFG_Borja_Dominguez/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
 		},
 		{
-			"file" : "/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domi\u0301nguez/4\u00ba/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+			"file" : "/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domi\u0301nguez/4\u00ba/2do_Cuatrimestre/TFG/TFG_Borja_Dominguez/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
 		},
 		{
-			"file" : "/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domi\u0301nguez/4\u00ba/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+			"file" : "/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domi\u0301nguez/4\u00ba/2do_Cuatrimestre/TFG/TFG_Borja_Dominguez/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
 		},
 		{
-			"file" : "/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domi\u0301nguez/4\u00ba/2do_Cuatrimestre/TFG/Nuevo/TFG_Borja_Dominguez/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+			"file" : "/Users/borja.dominguez.martin/Library/CloudStorage/OneDrive-UniversidaddeAlcala/AA_UAH_Borja_Domi\u0301nguez/4\u00ba/2do_Cuatrimestre/TFG/TFG_Borja_Dominguez/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
 		}
 	],
 	"target" : 

@@ -1,0 +1,2 @@
+oscar repos:
+https://github.com/opobla/esp-nmda/blob/main/main/include/esp32-libs.h

@@ -1,0 +1,93 @@
+0,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:D�ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15532
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (29) boot: ESP-IDF v5.2 2nd stage bootloader[0m
+[0;32mI (29) boot: compile time Mar 11 2024 10:34:25[0m
+[0;32mI (29) boot: Multicore bootloader[0m
+[0;32mI (33) boot: chip revision: v3.0[0m
+[0;32mI (37) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (42) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (46) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (51) boot: Enabling RNG early entropy source...[0m
+[0;32mI (56) boot: Partition Table:[0m
+[0;32mI (60) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (67) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (75) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (82) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (90) boot: End of partition table[0m
+[0;32mI (94) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=13db0h ( 81328) map[0m
+[0;32mI (130) esp_image: segment 1: paddr=00023dd8 vaddr=3ffb0000 size=037ech ( 14316) load[0m
+[0;32mI (136) esp_image: segment 2: paddr=000275cc vaddr=40080000 size=08a4ch ( 35404) load[0m
+[0;32mI (150) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=31488h (201864) map[0m
+[0;32mI (219) esp_image: segment 4: paddr=000614b0 vaddr=40088a4c size=06374h ( 25460) load[0m
+[0;32mI (237) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (237) boot: Disabling RNG early entropy source...[0m
+[0;32mI (249) cpu_start: Multicore app[0m
+[0;32mI (258) cpu_start: Pro cpu start user code[0m
+[0;32mI (258) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (258) cpu_start: Application information:[0m
+[0;32mI (261) cpu_start: Project name:     miprograma_esp32[0m
+[0;32mI (266) cpu_start: App version:      47366c3-dirty[0m
+[0;32mI (272) cpu_start: Compile time:     Mar 11 2024 10:34:13[0m
+[0;32mI (278) cpu_start: ELF file SHA256:  10d75f082...[0m
+[0;32mI (283) cpu_start: ESP-IDF:          v5.2[0m
+[0;32mI (288) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (293) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (298) cpu_start: Chip rev:         v3.0[0m
+[0;32mI (303) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (310) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (316) heap_init: At 3FFB4250 len 0002BDB0 (175 KiB): DRAM[0m
+[0;32mI (322) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (328) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (335) heap_init: At 4008EDC0 len 00011240 (68 KiB): IRAM[0m
+[0;32mI (342) spi_flash: detected chip: generic[0m
+[0;32mI (345) spi_flash: flash io: dio[0m
+[0;33mW (349) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;33mW (363) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (374) main_task: Started on CPU0[0m
+[0;32mI (384) main_task: Calling app_main()[0m
+[0;32mI (384) gpio: GPIO[25]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:2 [0m
+[0;32mI (384) cam_hal: cam init ok[0m
+[0;32mI (394) sccb: pin_sda 26 pin_scl 27[0m
+[0;32mI (394) sccb: sccb_i2c_port=1[0m
+[0;32mI (394) gpio: GPIO[32]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (434) camera: Detected camera at address=0x30[0m
+[0;32mI (434) camera: Detected OV2640 camera[0m
+[0;32mI (434) camera: Camera PID=0x26 VER=0x42 MIDL=0x7f MIDH=0xa2[0m
+[0;32mI (514) cam_hal: buffer_size: 32768, half_buffer_size: 4096, node_buffer_size: 2048, node_cnt: 16, total_cnt: 93[0m
+[0;32mI (514) cam_hal: Allocating 384000 Byte frame buffer in PSRAM[0m
+[0;31mE (524) cam_hal: cam_dma_config(301): frame buffer malloc failed[0m
+[0;31mE (534) cam_hal: cam_config(385): cam_dma_config failed[0m
+[0;31mE (534) camera: Camera config failed with error 0xffffffff[0m
+[0;31mE (544) Camera: Camera Init Failed[0m
+[0;32mI (544) Camera: Initializing SD card[0m
+[0;32mI (554) Camera: Mounting SD card...[0m
+[0;32mI (554) gpio: GPIO[13]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;31mE (584) sdmmc_common: sdmmc_init_ocr: send_op_cond (1) returned 0x107[0m
+[0;31mE (584) vfs_fat_sdmmc: sdmmc_card_init failed (0x107).[0m
+[0;31mE (584) Camera: Failed to mount SD card VFAT filesystem. Error: ESP_ERR_TIMEOUT[0m
+[0;32mI (594) Camera: Taking picture...[0m
+[0;31mE (604) Camera: Could not open file =([0m
+[0;32mI (3604) Camera: Taking picture...[0m
+[0;31mE (3604) Camera: Could not open file =([0m
+[0;32mI (6604) Camera: Taking picture...[0m
+[0;31mE (6604) Camera: Could not open file =([0m
+[0;32mI (9604) Camera: Taking picture...[0m
+[0;31mE (9604) Camera: Could not open file =([0m
+[0;32mI (12604) Camera: Taking picture...[0m
+[0;31mE (12604) Camera: Could not open file =([0m
+[0;32mI (15604) Camera: Taking picture...[0m
+[0;31mE (15604) Camera: Could not open file =([0m
+[0;32mI (18604) Camera: Taking picture...[0m
+[0;31mE (18604) Camera: Could not open file =([0m
+[0;32mI (21604) Camera: Taking picture...[0m
+[0;31mE (21604) Camera: Could not open file =([0m
