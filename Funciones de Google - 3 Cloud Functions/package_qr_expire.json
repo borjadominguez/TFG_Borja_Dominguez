@@ -1,0 +1,16 @@
+{
+    "name": "qr_expire",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "@google-cloud/firestore": "^4.9.0",
+      "cors": "^2.8.5"
+    },
+    "engines": {
+      "node": "14.x"
+    }
+  }
+  

@@ -1,0 +1,19 @@
+{
+    "name": "qr_check",
+    "version": "1.0.0",
+    "description": "Cloud Function to check QR code payloads",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "@google-cloud/firestore": "^4.9.1",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "firebase-functions": "^3.13.2"
+    },
+    "engines": {
+        "node": "14.x"
+    }
+}
+  

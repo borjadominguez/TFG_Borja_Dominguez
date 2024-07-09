@@ -1,1 +1,0 @@
-/Users/borja.dominguez.martin/esp/esp-idf/components/mbedtls/mbedtls/library/error.c

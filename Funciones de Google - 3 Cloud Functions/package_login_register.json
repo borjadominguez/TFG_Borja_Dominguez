@@ -1,0 +1,18 @@
+{
+  "name": "function-login-register",
+  "version": "1.0.0",
+  "description": "Function for user login and registration",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@google-cloud/secret-manager": "^3.8.0",
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
